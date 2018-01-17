@@ -1,0 +1,86 @@
+
+@import url('https://fonts.googleapis.com/css?family=Lato');
+@font-face {
+    font-family: "Gotham Book";
+    src: url(../fonts/gotham-book-regular.otf);
+}
+@font-face {
+    font-family: "Gotham Bold";
+    src: url(../fonts/gotham-bold-regular.ttf);
+}
+@font-face {
+    font-family: "Gotham Medium";
+    src: url(../fonts/gotham-medium-regular.ttf);
+}
+
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 60px;
+}
+
+div.our-team.img.row {
+  padding-top: 5%;
+  width: auto;
+}
+
+.img-container {
+  float: left;
+  /*padding-top: 2%;*/
+  width: 30%;
+  margin-left: 3.33%;
+  position: relative;
+
+	box-shadow: 0 2px 21px 0 rgba(13, 31, 45, 0.12);
+  /*-webkit-box-shadow: 0 0 10px #fff;
+        box-shadow: 0 0 10px #fff;*/
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 90%;
+  width: 90%;
+  margin-left: 5%;
+  margin-top: 5%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #57068c;
+}
+
+.img-container:hover .overlay {
+  opacity: 0.52;
+}
+
+.text {
+  text-align: left;
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 40%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
+.text > p {
+  color: white;
+  font-size: 20px;
+  font-family: "Gotham Book";
+}

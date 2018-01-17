@@ -1,0 +1,374 @@
+/* NOTE: NEW CLASSES NOT ADDED TO THE PAGES YET */
+.page-subheading {
+  font-family: "Gotham Book", serif;
+	font-size: 16px;
+	text-align: center;
+	color: #9d9d9d;
+}
+.page-heading {
+  /* ------- */
+  font-family: "Gotham Medium", serif;
+  font-size: 40px;
+  font-weight: 500;
+	letter-spacing: 2px;
+	text-align: center;
+	color: #9d9d9d;
+  /* -------- */
+}
+.section-buttons {
+  font-family: "Gotham Book", serif;
+  font-size: 16px;
+  background-color: rgba(255, 0, 0, 0);
+  border: 1px solid #B5ADA6;
+  padding: 1% 5% 1% 5%;
+  margin: 3%;
+  color: #B5ADA6;
+  margin-bottom: 8%;
+}
+
+/* --------------------------------------------------- */
+
+/* NOTE: NEW CLASSES NOT ADDED TO THE HOME PAGE YET */
+.design-situation {
+
+}
+.meet {
+
+}
+.stit {
+
+}
+.slogan {
+
+}
+
+/* --------------------------------------------------- */
+
+/* STYLES ONLY FOR THE HOME PAGE */
+
+button {
+  font-family: "Gotham Book", serif;
+  font-size: 16px;
+  background-color: rgba(255, 0, 0, 0);
+}
+
+
+
+
+a:active, a:hover, a:visited, a:focus, a:visited {
+  /* color: white; */
+}
+
+
+
+
+body > .container {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+#about-1, #about-2 {
+  float: left;
+}
+#about-1 {
+  padding: 5%;
+}
+footer {
+  background-color: white;
+  clear: both;
+}
+button {
+  border: 1px solid #B5ADA6;
+  padding: 1% 5% 1% 5%;
+  margin: 3%;
+  /* margin: 1%; */
+  background-color: rgba(0, 0, 0, 0);
+}
+.portfolio-buttons > button {
+  margin: 1%;
+  width: 22%;
+}
+.learn-more-button {
+  background-color: #FAFAFA;
+  border: 1px solid #B5ADA6;
+  border-radius: 5px;
+  padding: 3% 5% 3% 5%;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 10%;
+  margin-left: 0;
+  /* padding-top: 3%; */
+  /* padding-bottom: 3%; */
+  /* padding-left: 5%; */
+  /* padding-right: 5%; */
+  /* border: 1px solid #B5ADA6; */
+  /* border-radius: 5px; */
+  /* background-color: #FAFAFA; */
+}
+.portfolio-img > img {
+  width: 32%;
+  height: 224px;
+  padding: 5% 0.5% 1% 0.5%;
+}
+.circle {
+    background-color:#fff;
+    border:1px solid grey;
+    height:15px;
+    border-radius:50%;
+    -moz-border-radius:50%;
+    -webkit-border-radius:50%;
+    width:15px;
+}
+.portfolio-img-counters > div {
+  float: left;
+  padding: 1%;
+  margin: 5px;
+}
+
+/*ABOUT SECTION STYLES
+-------------------------------------------------- */
+.about-section {
+  background-color: #FAFAFA;
+  position: static;
+  height: 650px;
+}
+#about-1 > p {
+  font-size: 16px;
+}
+
+
+/* PORTFOLIO SECTION CSS
+-------------------------------------------------- */
+div.portfolio > div.page-header > span > div.portfolio-buttons > button {
+  background-color: rgba(0, 0, 0, 0);
+  border-color: #B5ADA6;
+  color: #B5ADA6;
+}
+div.portfolio > div.page-header > span > div.portfolio-buttons > button.btn-active {
+  background-color: #B5ADA6;
+  border-color: #B5ADA6;
+  color: white;
+}
+
+/* DESIGN SECTION CSS
+-------------------------------------------------- */
+div.design {
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+div.design > div.page-header > span > div.design-buttons > button {
+  color: #B5ADA6;
+  margin-bottom: 8%;
+  margin-top: 3%;
+}
+.design .circle {
+  height: 80px;
+  width: 80px;
+  display: inline-block;
+  background-color: rgba(0,0,0,0);
+}
+.design-process {
+  width: 32%;
+  float: left;
+  padding-left: 1%;
+}
+.learn-more-button {
+  clear: both;
+}
+.design-process > p {
+  padding: 2%;
+  font-size: 12px;
+}
+.design-process > h3 {
+  font-size: 18px;
+}
+
+/* Carousel base
+-------------------------------------------------- */
+.carousel {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+/* Declare heights because of positioning of img element */
+.carousel-item {
+  /*height: auto;*/
+  width: auto;
+  background-color: #777;
+}
+.carousel-item > img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  /*height: auto;*/
+  width: auto;
+}
+.carousel-control {
+  position: absolute;
+  top: 50%; /* pushes the icon in the middle of the height */
+  z-index: 5;
+  display: inline-block;
+  width: 10%;
+  bottom: auto;
+  border-color: grey;
+}
+
+/* Custom CSS FOR SLIDER
+-------------------------------------------------- */
+html {box-sizing: border-box;}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+.slider .responsive {
+  height: auto;
+  width: 100%;
+}
+.changing-sliders > div > img {
+  width: 100%;
+  height: auto;
+	padding: 5px;
+}
+.changing-sliders > div {
+  width: 33%;
+  padding-left: 0.33px;
+  float: left;
+}
+.changing-sliders {
+  width: 100%;
+  float: left;
+}
+.prev {
+  clear: both;
+}
+.slick-dots {
+	text-align: center;
+  margin: 0 0 10px 0;
+  padding: 0;
+}
+.slick-dots > li {
+  display:inline-block;
+  margin-left: 4px;
+  margin-right: 4px;
+  padding-top: 2%;
+}
+.slick-active > button {
+  background-color:black;
+}
+.slick-dots > li > button {
+  font: 0/0 a;
+  text-shadow: none;
+  color: transparent;
+  background-color:#999;
+  border:none;
+  width: 20px;
+  height: 20px;
+  border-radius:50%;
+}
+.slick-dots > li > button:hover, .slick-dots > li > button.btn-active {
+	background-color: black;
+}
+.glyphicon {
+  background-color: grey;
+}
+.carousel-control.right {
+  right: -20px;
+}
+.carousel-control.left {
+  left: -20px;
+}
+
+/* 4K */
+@media (min-width: 2000px) {
+
+}
+
+/* LAPTOP - WIDE */
+@media (min-width: 1200px) and (max-width: 1999px) {
+
+}
+
+/* LAPTOP */
+@media (min-width: 992px) and (max-width: 1199px) {
+  #about-1 {
+    padding: 3%;
+  }
+  #about-1 > button {
+    margin: 9%;
+    margin-left: 0;
+  }
+}
+
+/* TABLET */
+@media (min-width: 768px) and (max-width: 991px) {
+  #about-1 {
+    padding: 3%;
+  }
+  #about-1 > p, #about-1 > button {
+    font-size: 14px;
+  }
+  #about-1 > h1 {
+    font-size: 36px;
+  }
+  #about-1 > button {
+    margin: 6%;
+    margin-left: 0;
+  }
+}
+
+/* MOBILE - WIDE*/
+@media (max-width: 767px) {
+  /* change the height of the about section*/
+  .about-section {
+    /* height: 1164px; */
+    height: 500px;
+  }
+  #about-1 {
+    padding: 3%;
+    /* center align everything */
+    text-align: center;
+  }
+  #about-1 > p, #about-1 > button {
+    font-size: 14px;
+  }
+  #about-1 > h1 {
+    font-size: 36px;
+  }
+  #about-1 > button {
+    margin: 6%;
+  }
+  /* img 100% */
+  #about-2 {
+    width: 100%;
+  }
+  /* don't display image */
+  #about-2 {
+    display: none;
+  }
+}
+
+/* MOBILE - MED*/
+@media (min-width: 384px) and (max-width: 767px) {
+  /* change the height of the about section*/
+  .about-section {
+    height: 650px;
+  }
+  #about-1 {
+    padding: 3%;
+  }
+  #about-1 > p {
+    font-size: 14px;
+  }
+}
+
+/* MOBILE - SM */
+@media (max-width: 385px) {
+  #about-1 {
+    padding: 3%;
+  }
+  #about-1 > p {
+    font-size: 14px;
+  }
+}

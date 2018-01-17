@@ -1,0 +1,483 @@
+@import url('https://fonts.googleapis.com/css?family=Lato');
+
+@font-face {
+    font-family: "Gotham Book";
+    src: url("../fonts/gotham-book-regular.otf");
+}
+@font-face {
+    font-family: "Gotham Bold";
+    src: url("../fonts/gotham-bold-regular.ttf");
+}
+@font-face {
+    font-family: "Gotham Medium";
+    src: url("../fonts/gotham-medium-regular.ttf");
+}
+
+h1, h2, h3, h4, h5, p {
+  color: #9d9d9d;
+}
+h1 {
+  font-family: "Gotham Medium", serif;
+  font-size: 44px;
+}
+h2 {
+  font-family: "Gotham Medium", serif;
+  font-size: 40px;
+}
+p {
+  font-family: "Gotham Book", serif;
+  font-size: 24px;
+  line-height: 30.8px;
+}
+.page-heading {
+  /* NOTE: New */
+  /* ------- */
+  font-family: "Gotham Medium", serif;
+  font-size: 40px;
+  font-weight: 500;
+	letter-spacing: 2px;
+	text-align: center;
+	color: #9d9d9d;
+  /* -------- */
+}
+
+/* LOGO STYLES */
+.navbar-brand > img {
+  height: 43px;
+  width: auto;
+  padding-right: 3%;
+}
+.logo-line {
+  width: 0;
+	height: 43px;
+	border: solid 0.5px #ffffff;
+}
+.logo-acc {
+	font-family: "Gotham Bold";
+	font-size: 34px;
+	color: #ffffff;
+  vertical-align: middle;
+  position: static;
+  padding-left: 5%;
+  padding-top: 4%;
+  padding-bottom: 3%;
+}
+.navbar-brand > img, .navbar-brand > div, .navbar-brand > p {
+  float: left;
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+/* ------------ */
+/* FLOAT IN THE NAVBAR */
+nav > div.container > .navbar-header, nav > div.container > #navbar {
+  float: left;
+}
+
+nav > div.container > .navbar-header {
+  width: 20%;
+}
+
+nav > div.container > #navbar {
+  width: 75%;
+}
+
+body > div.container {
+  clear: both;
+}
+/* ------------------- */
+
+nav > div.container > div#navbar > ul.nav.navbar-nav > li {
+  font-family: "Gotham Medium", serif;
+  font-size: 20px;
+  padding-left: 4%;
+}
+.navbar-brand {
+  font-family: "Gotham Bold";
+  font-size: 35px;
+  width: 100%;
+  padding: 2px;
+}
+nav > .container > .navbar-header {
+    /* padding-right: 8%; */
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+.navbar-toggle {
+  border-radius: 2px;
+}
+.navbar.navbar-default .navbar-toggle .icon-bar {
+  background-color: #57068C;
+}
+.navbar.navbar-default .navbar-toggle.collapsed .icon-bar {
+  background-color: #ddd;
+}
+.navbar.navbar-default .navbar-collapse {
+    border: 0;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+.navbar-default .navbar-nav>li>a, .navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>li>a:visited {
+  color: white;
+  background-color: rgba(0,0,0,0);
+  text-decoration: none;
+}
+
+
+/* 4K */
+@media (min-width: 2000px) {
+  .container {
+    width: auto;
+  }
+  /* NAV */
+  .logo-acc {
+    padding-top: 2.5%;
+  }
+  nav > div.container > div#navbar > ul.nav.navbar-nav {
+    width: 100%;
+  }
+  nav > div.container > div#navbar > ul.nav.navbar-nav > li {
+    padding-left: 5%;
+    font-size: 25px;
+  }
+  /* FOOTER */
+  ul#footer-links {
+    font-size: 25px;
+    padding: 2% 0 2% 4%;
+  }
+  #footer-social > li > a > img {
+    height: 70px;
+  }
+  footer > div.container {
+    text-align: center;
+  }
+  footer > div.container > span.cc {
+    width: 90%;
+  }
+}
+
+/* LAPTOP - WIDE */
+@media (min-width: 1200px) and (max-width: 1999px) {
+  .container {
+    /* width: 1170px; */
+  }
+  /* NAV */
+  nav > div.container > div#navbar > ul.nav.navbar-nav {
+    width: 100%;
+  }
+  nav > div.container > div#navbar > ul.nav.navbar-nav > li {
+    padding-left: 3%;
+    font-size: 20px;
+  }
+  /* FOOTER */
+  ul#footer-links {
+    font-size: 19px;
+    padding: 2% 0 2% 4%;
+  }
+  #footer-social > li > a > img {
+    height: 45px;
+  }
+  footer > div.container {
+    text-align: center;
+  }
+  footer > div.container > span.cc {
+    width: 95%;
+  }
+}
+
+/* LAPTOP */
+@media (min-width: 992px) and (max-width: 1199px) {
+  .container {
+    width: 970px;
+  }
+  /* NAV */
+  .navbar-brand > img {
+    height: 60%;
+    margin-top: 7%;
+  }
+  .logo-line {
+    height: 60%;
+    margin-top: 7%;
+  }
+  .logo-acc {
+    font-size: 20px;
+    padding-top: 7%;
+  }
+  nav > div.container > div#navbar > ul.nav.navbar-nav > li {
+    padding-left: 4%;
+    font-size: 15px;
+  }
+  .container > .navbar-header {
+      padding-right: 4%;
+  }
+  nav > div.container > div#navbar > ul.nav.navbar-nav {
+    width: 100%;
+  }
+  .navbar-default .navbar-nav>li>a {
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+  /* FOOTER */
+  ul#footer-links {
+    font-size: 15px;
+    padding: 2% 0 2% 4%;
+  }
+  #footer-social > li > a > img {
+    height: 35px;
+  }
+  footer > div.container {
+    text-align: center;
+  }
+  footer > div.container > span.cc {
+    width: 95%;
+  }
+}
+
+/* TABLET */
+@media (min-width: 768px) and (max-width: 991px) {
+  .container {
+    /* width: 750px; */
+  }
+  /* NAV */
+  .navbar-brand > img {
+    height: 55%;
+    margin-top: 7%;
+  }
+  .logo-line {
+    height: 55%;
+    margin-top: 7%;
+  }
+  .logo-acc {
+    font-size: 20px;
+    padding-top: 6%;
+  }
+  .navbar-nav {
+    float: none;
+  }
+  nav > .container > .navbar-header {
+    padding-right: 1%;
+  }
+  nav > div.container > div#navbar > ul.nav.navbar-nav > li {
+    font-size: 12px;
+    padding-left: 0;
+  }
+  /* FOOTER */
+  ul#footer-links {
+    font-size: 12px;
+    padding: 2% 0 2% 4%;
+  }
+  #footer-social > li > a > img {
+    height: 28px;
+  }
+  footer > div.container {
+    text-align: center;
+  }
+  footer > div.container > span.cc {
+    width: 95%;
+  }
+}
+
+/* MOBILE - WIDE*/
+@media (max-width: 767px) {
+  /* NAV */
+  nav > div.container > .navbar-header {
+    width: 100%;
+  }
+  nav > div.container > .navbar-header > button {
+    margin-right: 0;
+  }
+  .logo-acc {
+    padding-top: 10px;
+  }
+  nav > div.container > .navbar-header > button, nav > div.container > .navbar-header > a {
+    float: left;
+  }
+  nav > div.container > .navbar-header > a {
+    width: 80%;
+  }
+
+  /* FOOTER */
+  footer > div.container > span > ul {
+    float: none;
+  }
+  footer > div.container > span > ul > li {
+    list-style: none;
+    /* float: left; */
+    padding-right: 10%;
+  }
+  ul#footer-links {
+    width: 100%;
+
+    font-size: 13px;
+    padding: 2% 10% 2% 20%;
+  }
+  ul#footer-social {
+    width: 100%;
+    padding: 2% 10% 2% 25%;
+  }
+  #footer-social > li > a > img {
+    height: 28px;
+  }
+  footer > div.container {
+    text-align: center;
+  }
+  footer > div.container > span.cc {
+    width: 95%;
+  }
+}
+
+/* MOBILE - MED*/
+@media (min-width: 384px) and (max-width: 767px) {
+  /* NAV */
+  .navbar-brand > img, .navbar-brand > .logo-line {
+    height: 70%;
+  }
+  .logo-acc {
+    font-size: 25px;
+    padding-top: 2px;
+  }
+  .navbar-brand {
+    padding: 2% 0;
+  }
+  /* FOOTER */
+  footer > div.container > span > ul#footer-links > li {
+    width: 31%;
+    padding: 3% 0;
+  }
+  footer > div.container > span > ul#footer-social > li {
+    width: 25%;
+    padding: 3% 0;
+  }
+  footer > div.container > span > ul > li {
+    list-style: none;
+    /* float: left; */
+    padding-right: 10%;
+  }
+  ul#footer-links {
+    width: 100%;
+
+    font-size: 13px;
+    padding: 2% 10% 2% 10%;
+  }
+  ul#footer-social {
+    width: 100%;
+    padding: 2% 10% 2% 10%;
+  }
+  #footer-social > li > a > img {
+    height: 35px;
+  }
+  footer > div.container {
+    text-align: center;
+  }
+  footer > div.container > span.cc {
+    width: 95%;
+  }
+}
+
+/* MOBILE - SM */
+@media (max-width: 385px) {
+  /* NAV */
+  .navbar-brand > img, .navbar-brand > .logo-line {
+    height: 70%;
+  }
+  .logo-acc {
+    font-size: 25px;
+    padding-top: 2px;
+  }
+  .navbar-brand {
+    padding: 2% 0;
+  }
+  nav > div.container > .navbar-header > a {
+      width: 75%;
+  }
+  /* FOOTER */
+  footer > div.container > span > ul#footer-links > li {
+    width: 100%;
+    padding: 3% 0;
+  }
+  footer > div.container > span > ul#footer-social > li {
+    width: 25%;
+    padding: 3% 0;
+  }
+  footer > div.container > span > ul > li {
+    list-style: none;
+    /* float: left; */
+    padding-right: 10%;
+  }
+  ul#footer-links {
+    width: 100%;
+
+    font-size: 13px;
+    padding: 2% 10% 2% 10%;
+  }
+  ul#footer-social {
+    width: 100%;
+    padding: 2% 10% 2% 10%;
+  }
+  #footer-social > li > a > img {
+    height: 35px;
+  }
+  footer > div.container {
+    text-align: center;
+  }
+  footer > div.container > span.cc {
+    width: 95%;
+  }
+}
+
+
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 60px;
+}
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 60px;
+}
+
+
+
+/* Custom page CSS
+-------------------------------------------------- */
+body > .container {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+footer {
+  background-color: white;
+  clear: both;
+}
+
+
+
+/*COMPLETE CENTER (VERT & HOR) STYLES
+-------------------------------------------------- */
+span.cc, #footer-links {
+  display: inline-block;
+  vertical-align: middle;
+  line-height: normal;
+  /*make sure to also make the line height = the height of the section the span is contained in*/
+}
+
+/* Custom page CSS FROM BOOTSTRAP
+-------------------------------------------------- */
+.footer > .container {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+/* FOOTER STYLES
+--------------------------------------------------  */
+#footer-links, #footer-social {
+  padding: 1% 0 1% 4%;
+}

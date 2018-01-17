@@ -1,0 +1,37 @@
+img {
+  width: 100%;
+  height: auto;
+  padding-bottom: 10%;
+}
+
+h1, p {
+  font-family: "Gotham Book";
+  color: #1d0735;
+}
+
+h1 {
+  padding-bottom: 5%;
+}
+
+p {
+  padding-bottom: 10%;
+}
+
+.page-header > .cc > p {
+  padding-bottom: 0;
+}
+
+figure.floated > img, figure.floated > figcaption {
+  float: left;
+  width: 50%;
+}
+
+figure.floated > figcaption {
+  padding-left: 10%;
+  font-size: 18px;
+  line-height: 600px;
+}
+
+figure.floated > img {
+  height: 700px;
+}

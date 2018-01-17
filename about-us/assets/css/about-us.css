@@ -1,0 +1,46 @@
+
+@import url('https://fonts.googleapis.com/css?family=Lato');
+@font-face {
+    font-family: "Gotham Book";
+    src: url(../fonts/gotham-book-regular.otf);
+}
+@font-face {
+    font-family: "Gotham Bold";
+    src: url(../fonts/gotham-bold-regular.ttf);
+}
+@font-face {
+    font-family: "Gotham Medium";
+    src: url(../fonts/gotham-medium-regular.ttf);
+}
+
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 60px;
+}
+
+
+
+p {
+  font-size: 18px;
+}
+h1 {
+  margin:5% 0 5% 0;
+}
+.img-circle {
+  border-radius: 50%;
+  width: 100%;
+  height: auto;
+}
+.what-do.img {
+  float: left;
+  padding-left: 10%;
+  width: 30%;
+  height: 200px;
+  padding-top: 5%;
+}
