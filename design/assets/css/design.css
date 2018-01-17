@@ -1,0 +1,219 @@
+
+.circle {
+  position: relative;
+  width: 500px;
+  height: 500px;
+  /* padding-top: 100%; */
+  border-radius: 50%;
+  background-color: white;
+}
+.circle:before {
+  position: absolute;
+  content: "";
+  width: 104%;
+  height: 104%;
+  top: -2%;
+  left: -2%;
+  background-color: white;
+  border-radius: 50%;
+  z-index: -1;
+}
+.circle:after {
+  position: absolute;
+  content: "";
+  width: 106%;
+  height: 106%;
+  top: -3%;
+  left: -3%;
+  background-color: rgba(242,189,242,1);
+  background-image: linear-gradient(to right top, #792bd2 0%, #1f0738 100%);
+  border-radius: 50%;
+  /* z-index: -2; */
+}
+
+.inner-circle {
+  /* position: relative; */
+  width: 400px;
+  height: 400px;
+  /* padding-top: 100%; */
+  border-radius: 50%;
+  background-color: #FAFAFA;
+
+  position: absolute;
+  content: "";
+  width: 95%;
+  height: 95%;
+  top: 2.5%;
+  left: 2.5%;
+  background-color: white;
+  border-radius: 50%;
+  z-index: 1;
+
+}
+
+.inner-circle > div > div {
+  float: left;
+  width: 45%;
+}
+
+.inner-circle .top {
+  padding: 10%;
+}
+
+.inner-circle .bottom {
+  padding: 10% 5%;
+}
+
+.iterate, .test, .prototype {
+  text-align: right;
+  margin-right: 10%;
+}
+.empathize, .research, .ideate {
+  text-align: left;
+}
+
+.inner-circle > div > div > h1 {
+  font-size: 20px;
+  margin-top: 10px;
+  margin-bottom: 5px;
+  color: #1d0735;
+}
+
+.inner-circle > div > div > hr {
+  border-top: solid 2px #57068c;
+  margin: 0;
+}
+
+.inner-circle > div > div > p {
+  font-size: 14px;
+  line-height: 1.06;
+  padding-top: 2%;
+  color: #b5ada6;
+}
+
+
+/* DESIGN STANDARDS STYLES */
+.standards {
+  text-align: center;
+  margin-bottom: 110%;
+}
+.standards > h1 {font-size: 40px;}
+.standards > .a, .standards > .b, .standards > .c {
+  float: left;
+  width: 33%;
+  padding-left: 0.33%;
+}
+.title {
+  color: white;
+  height: 70px;
+  font-size: 2em;
+  margin-top: 20%;
+  padding: 5% 0;
+}
+.standards > .a > .title {background-color: #2D0F5C;}
+.standards > .b > .title {background-color: #571A8B;}
+.standards > .c > .title {background-color: #7E3ACA;}
+
+.summary {
+  font-family: "Gotham Book", serif;
+  font-size: 24px;
+  text-align: center;
+  color: #4a4f55;
+  height: 200px;
+  padding-top: 5%;
+}
+
+/* ARROW STYLES */
+.creative-arrow {
+  margin: 0 46%;
+  padding: 5% 0;
+}
+.hor-stick {
+  margin-left: 2px;
+  width: 16px;
+	height: 0;
+	border: solid 1px #57068c;
+}
+.long-stick {
+  margin-left: 9px;
+  width: 0;
+	height: 30px;
+	border: solid 1px #57068c;
+}
+.arrow {
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-top: 10px solid #57068c;
+
+  width: 13px;
+	height: 11px;
+}
+
+/* double arrow */
+.creative-arrow-2 {
+  margin: 0 28%;
+  padding: 5% 0;
+}
+.long-stick.ca2 {
+  margin-left: 50%;
+  height: 10px;
+}
+.creative-arrow-2 > .hor-stick {
+  width: 88%;
+  margin-left: 2px;
+}
+.double-arrow {
+  float: left;
+  width: 50%;
+}
+/* ------------ */
+
+.format > ul, .format > ul > ul {
+  padding: 0;
+  list-style: none;
+}
+.format > ul > ul {
+  float: left;
+  width: 45%;
+  padding-left: 5%;
+}
+.format > ul > li, .format > ul > ul > li {
+  font-family: "Gotham Book", serif;
+  text-align: center;
+	color: #b5ada6;
+  font-size: 20px;
+}
+.format > ul > ul > li {
+  font-family: "Gotham Book", serif;
+  font-size: 18px;
+  padding-top: 10%;
+}
+/* ---------------- */
+
+/* NEWSLETTER */
+#newsletterp {
+  margin: 7% 0 10% 0;
+}
+input {
+  width: 327px;
+	height: 65px;
+	border-radius: 5px;
+	background-color: #ffffff;
+	border: solid 1px #9d9d9d;
+  font-family: "Gotham Book";
+  font-size: 22px;
+  padding: 0 3%;
+  margin: 0 1%;
+}
+
+form > .submit {
+  width: 220px;
+	height: 65px;
+	border-radius: 5px;
+	background-color: #9d9d9d;
+  color: white;
+  font-family: "Gotham Medium";
+}
+
+
+/* ----------- */
